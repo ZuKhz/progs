@@ -12,12 +12,6 @@ void printvect(vector<int> s)
     cout<<endl;
 }
 
-void smiledelete(string s, int a)
-{
-    s[a] = s[a+3];
-    s[a+1] = s[a+4];
-    s[a+3] = s[a+5];
-}
 
 int main()
 {
